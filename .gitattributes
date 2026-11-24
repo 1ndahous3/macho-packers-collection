@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+fixtures/bin/** -text
+packers/*/packed-fixtures/** -text
+packers/*/packed-samples/** -text
+packers/*/tools/*/bin/** -text
+fixtures/bin/**/manifest.json text eol=lf
